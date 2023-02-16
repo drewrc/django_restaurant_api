@@ -1,6 +1,5 @@
 from django.urls import path, include
 
 urlpatterns = [
-    path('items/', include('items.urls')),
-    
+    path('items/', include('orders.urls')),
 ]

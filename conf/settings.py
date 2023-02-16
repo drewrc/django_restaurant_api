@@ -40,8 +40,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     #local
-    'items.apps.ItemsConfig',
     'api.apps.ApiConfig',
+    'orders.apps.OrdersConfig',
+    'frontend.apps.FrontendConfig',
 
     #3rd party 
     'rest_framework',
@@ -134,5 +135,5 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # Static file directories
 # https://docs.djangoproject.com/en/3.1/ref/settings/#staticfiles-dirs
 
-STATICFILES_DIRS = (os.path.join(BASE_DIR, 'frontend/static/build/static'),)
-REACT_APP_DIR = os.path.join(BASE_DIR, 'frontend/static')
+STATICFILES_DIRS = (os.path.join(BASE_DIR, 'frontend/react-resturant-app/build/static'),)
+REACT_APP_DIR = os.path.join(BASE_DIR, 'frontend/react-resturant-app/')
