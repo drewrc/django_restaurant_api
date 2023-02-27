@@ -1,0 +1,63 @@
+.main {
+    max-width: 80wv;
+    background-color: rgb(196, 196, 196);
+    color:rgb(29, 29, 29);
+}
+.main-text {
+    background-color: rgb(223, 218, 218);
+    text-align: center;
+}
+.side-text {
+    padding-top: 20px;
+    display: flexbox;
+    text-align: center;
+}
+
+.main-banner {
+    max-width: 100%;
+}
+.weekly-specials {
+    margin: 20px;
+    text-align: center;
+}
+.featured-items {
+    margin: 10px;
+    text-align: left;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    color: rgb(83, 0, 0);
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h2 {font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(83, 0, 0);
+    font-size: 14px;
+    text-align: center;
+    padding: 20px;
+}
+h3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.main-description {  
+    font-size: 20px; 
+    text-align: center;
+    margin: 10px;
+}
+.side-column-img {
+    width: 80%;
+    height: 30%;
+    padding: 20px;
+    object-fit: cover;
+}
+
+#spagetti {
+    padding: 10px;
+    object-fit: cover;
+    width: 80%;
+    height: 20%;
+}
